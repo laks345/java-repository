@@ -34,7 +34,7 @@ jobs:
       id: sonar-scan
       run: |
         mvn -B verify sonar:sonar \
-          -Dsonar.projectKey=testtr \
+          -Dsonar.projectKey=testtr_testtr \
           -Dsonar.organization=testtr \
           -Dsonar.host.url=https://sonarcloud.io \
           -Dsonar.token=$SONAR_TOKEN
